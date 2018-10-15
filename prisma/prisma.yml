@@ -1,0 +1,6 @@
+#prisma deploy -e ../config/prod.env
+#prisma deploy -e ../config/dev.env
+
+endpoint: ${env:PRISMA_ENDPOINT}
+datamodel: datamodel.graphql
+secret: thisismysupersecrettext
