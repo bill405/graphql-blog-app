@@ -82,9 +82,6 @@ const Query = {
             where: {
                 id: userId
             },
-            first,
-            skip,
-            after
         })
         
         return me
