@@ -14,18 +14,19 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@playlyfe/gql": "^2.6.0",
+    "adm-zip": "^0.4.11",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "bcryptjs": "^2.4.3",
     "env-cmd": "^8.0.2",
-    "graphql-cli": "^2.16.4",
-    "graphql-yoga": "^1.14.10",
+    "graphql-cli": "^2.16.7",
+    "graphql-yoga": "^1.16.2",
     "jsonwebtoken": "^8.3.0",
-    "prisma-binding": "^2.1.1"
+    "prisma-binding": "^2.1.6"
   },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.18.4"
   },
   "description": ""
 }
